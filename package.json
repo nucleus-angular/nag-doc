@@ -1,0 +1,103 @@
+{
+  "name": "nag-doc",
+  "version": "0.3.0",
+  "description": "General purpose JavaScript documentation generator with support for AngularJS specific components.",
+  "bugs": {
+    "url": "http://github.com/nucleus-angular/nag-doc/issues"
+  },
+  "contributors": [
+    {
+      "name": "Ryan Zec",
+      "email": "code@ryanzec.com"
+    },
+    {
+      "name": "Adam Moore",
+      "email": "amoore@gmail.com"
+    },
+    {
+      "name": "Ryan Grove",
+      "email": "ryan@wonko.com"
+    },
+    {
+      "name": "Eric Ferraiuolo",
+      "email": "eferraiuolo@gmail.com"
+    },
+    {
+      "name": "Felipe Gasper",
+      "email": "felipe@cpanel.net"
+    },
+    {
+      "name": "Evan Goer",
+      "email": "evan@goer.org"
+    },
+    {
+      "name": "Alberto Gragera",
+      "email": "albgra@gmail.com"
+    },
+    {
+      "name": "Pat Cavit",
+      "email": "pcavit@gmail.com"
+    },
+    {
+      "name": "Kazuhito Hokamura",
+      "email": "k.hokamura@gmail.com"
+    },
+    {
+      "name": "prodaea",
+      "email": "rlee@etherealnation.net"
+    },
+    {
+      "name": "Wei Wang",
+      "email": "weiwang85@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "keywords": [
+    "jsdoc",
+    "angular",
+    "angularjs",
+    "documentation",
+    "docs",
+    "apidocs",
+    "nucleus-angular"
+  ],
+  "main": "./lib/index",
+  "bin": {
+    "nag-doc": "./lib/cli.js"
+  },
+  "dependencies": {
+    "yui": "3.9.1",
+    "rimraf": "~2.0.0",
+    "minimatch": "~0.2.11",
+    "graceful-fs": ">=1.1.1",
+    "express": "~3.1.2",
+    "node-html-encoder": "0.0.2",
+    "marked": "0.2.9",
+    "adm-zip": "0.4.4",
+    "ncp": "0.5.0",
+    "request": "2.34.0",
+    "mkdirp": "0.3.5"
+  },
+  "devDependencies": {
+    "ytestrunner": "~0.3.3",
+    "yuitest": ">=0.7.3",
+    "selleck": "~0.1",
+    "istanbul": "~0.1.27"
+  },
+  "scripts": {
+    "test": "istanbul cover --print=both --yui ytestrunner -- --include ./tests/options.js --include ./tests/builder.js --include ./tests/parser.js --include ./tests/parser_coffee.js --include ./tests/files.js"
+  },
+  "preferGlobal": "true",
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/nucleus-angular/nag-doc/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nucleus-angular/nag-doc.git"
+  }
+}
