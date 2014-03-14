@@ -1,4 +1,4 @@
-Angular Doc Parser
+Nag Doc
 =================
 
 General purpose JavaScript documentation generator with support for AngularJS specific components.
