@@ -1,6 +1,6 @@
 {
   "name": "nag-doc",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "General purpose JavaScript documentation generator with support for AngularJS specific components.",
   "bugs": {
     "url": "http://github.com/nucleus-angular/nag-doc/issues"
